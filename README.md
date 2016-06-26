@@ -62,3 +62,6 @@
 }
 
 ```
+
+ ![image](https://github.com/Super-lying/ScrollBanner/blob/master/ScreenFlow.gif)
+
