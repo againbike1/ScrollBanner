@@ -5,7 +5,6 @@
 使用方法
 
 ```
-
 #import "ViewController.h"
 //轮播
 #import "InfiniteScrollBannerModel.h"
@@ -29,12 +28,6 @@
     [self SetScrollViewWithArray:arr];
     
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 -(void)SetScrollViewWithArray:(NSArray*)array{
     
@@ -64,11 +57,8 @@
 
 
 #pragma mark - 首页轮播器点击
-//-(void)scrollViewDidClickedAtPage:(NSInteger)pageNumber
 - (void)handleClickBannerImageView:(NSInteger)pageNumber{
- 
     NSLog(@"Click %d",pageNumber);
-
 }
 
 ```
